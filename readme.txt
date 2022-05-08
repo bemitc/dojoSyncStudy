@@ -25,3 +25,13 @@ STUDY_DB_PATH="<path to database -- /Users/brian/dojo_work/dojoStudyInterface/st
 
   https://flask.palletsprojects.com/en/2.1.x/deploying/wsgi-standalone/
   
+
+On the web site, pgnviewer.js and sample.html are around to see an example of what the html code should look like. The url needs
+to point to whatever url you'ce deployed the service and is in the following format:
+
+http://<hos>:<port>/api/pgn/<study id>/<chapter id>.pgn
+
+The way I have it in sample.html is sort of ugly, but you can use the examples at https://mliebelt.github.io/PgnViewerJS/index.html to
+better tailor to your liking.
+
+Feel free to DM me if you have any questions.
